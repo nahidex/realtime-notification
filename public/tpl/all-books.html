@@ -1,0 +1,22 @@
+<h4 class="page-header">All books</h4>
+	<div class="col-md-5 lib-item margin-right-one" ng-repeat="book in allBooks" data-category="view">
+		<div class="lib-panel">
+			<div class="row box-shadow">
+				<div class="col-md-6">
+					<img class="lib-img-show" src="http://lorempixel.com/850/850/?random=123">
+				</div>
+				<div class="col-md-6">
+					<div class="lib-row lib-header">
+						<a href="#">{{book.title}}</a>
+						<div class="lib-header-seperator"></div>
+						<h6 class="author"><strong>Author: </strong>{{book.author}}</h6>
+					</div>
+					<div class="lib-row lib-desc">
+						Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor
+						<h6><strong>Category: </strong>{{book.category}}</h6>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
